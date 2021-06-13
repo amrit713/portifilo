@@ -21,7 +21,7 @@ function Header() {
 
             {/* center */}
             <div className="sm:flex hidden lg:space-x-20 space-x-10 items-center font-medium text-lg">
-                <Link href="/project" scroll={true}>
+                <Link href="/" scroll={true}>
 
                     <a >
                     <h5 className="hover:text-white cursor-pointer " >Projects</h5>
@@ -29,7 +29,7 @@ function Header() {
                
                 </Link>
                 
-                <Link href="/technologies" scroll={true}>
+                <Link href="/" scroll={true}>
 
                     <a >
                     <h5 className="hover:text-white cursor-pointer">Technologies</h5>
@@ -37,7 +37,7 @@ function Header() {
                 
                 </Link>
 
-                <Link href="/about" scroll={true}>
+                <Link href="/" scroll={true}>
                     <a >
                     <h5 className="hover:text-white cursor-pointer">About</h5>
                     </a>
