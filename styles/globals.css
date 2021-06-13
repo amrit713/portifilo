@@ -1,0 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header_text{
+    @apply hover:text-white cursor-pointer hover:text-xl  transition duration-75 ease-in 
+}
